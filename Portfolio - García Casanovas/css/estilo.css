@@ -134,11 +134,9 @@ footer{
 }
 
 /* OBRA */
-.obra_imgs {
-    height: 30rem;
-    width: 30rem;
-    object-fit: cover;
-    padding: 1%;
+.titulo_seccion{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
 }
 
 #obraMain {
@@ -146,6 +144,16 @@ footer{
     flex-direction: row;
     justify-content: center;
 }
+
+.obra_imgs {
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+    padding: 1%;
+}
+
+
+
 /* ADAPTACIONES */
 /* Adaptación Desktop */
 @media screen and (max-width: 1500px){
