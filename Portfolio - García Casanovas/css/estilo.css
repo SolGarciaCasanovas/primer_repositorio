@@ -21,24 +21,33 @@ header {
     flex-direction: row;
 }
 
-img #menuPng {
+img .menu_png {
     width: 0.5rem;
     display: inline-block; 
     margin: 3% 0% 0% 3%;
 }
 
+/*
+img .logo_colores {
+}*/ 
+
 /* Títulos principales */
 /* tipo: letra en color y centrados */
-h1{
+h1 .titulos_secciones{
     font-size: 150%;
     display: inline;
     text-align: right;
     font-family: 'Fjalla One', sans-serif;
-    margin: 1% 2% 2% 90%;
+    margin: 1% 2% 2% 0%;
     padding: 1%;
     justify-content: center;
 }
 
+h2 {
+    font-size: 2rem;
+    font-family:'Merriweather', serif;
+    display: inline;
+}
 /* Menúes */
 /* tipo: lista desordenada sin bullets */
 nav{
@@ -129,14 +138,27 @@ footer{
 }
 
 /* OBRA */
-h2 {
-    font-size: 2rem;
+.header_flex{
+    display: flex;
+    flex-direction: row-reverse;
 
 }
 
-.titulo_seccion{
+h1 .titulo_registro{
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
+    text-align: right;
+    display: inline;
+    margin: 2% 2% 2% 30%;
+}
+
+h2 .logo_registro{
+    font-family:'Merriweather', serif;
+    font-size: 2rem;
+    text-align: left;
+    display: inline;
+    margin: 1% 48% 2% 2%;
+    padding: 1% 2% 2% 2%;
 }
 
 #obraMain {
