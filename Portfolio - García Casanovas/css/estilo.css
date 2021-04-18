@@ -18,14 +18,16 @@ header {
     height: 5vh;
     content: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
+
 
 img .menu_png {
     width: 0.5rem;
     display: inline-block; 
     margin: 3% 0% 0% 3%;
 }
+
 
 /*
 img .logo_colores {
@@ -77,6 +79,7 @@ ul li a{
 main {
     width:100vw;
     height:85vh;
+    overflow-y: scroll;
 }
 
 /* tipo: aire en el caja */
@@ -143,7 +146,7 @@ footer{
     flex-direction: row-reverse;
 }
 
-h1 .titulo_registro{
+.titulo_registro{
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
     text-align: right;
@@ -151,7 +154,7 @@ h1 .titulo_registro{
     margin: 2% 2% 2% 30%;
 }
 
-h2 .logo_registro{
+.logo_registro{
     font-family:'Merriweather', serif;
     font-size: 2rem;
     text-align: left;
