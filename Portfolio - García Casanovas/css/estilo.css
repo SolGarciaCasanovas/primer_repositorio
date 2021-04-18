@@ -141,7 +141,6 @@ footer{
 .header_flex{
     display: flex;
     flex-direction: row-reverse;
-
 }
 
 h1 .titulo_registro{
