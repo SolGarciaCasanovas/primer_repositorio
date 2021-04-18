@@ -25,11 +25,12 @@ header {
 img .menu_png {
     width: 0.4rem;
     display: inline-block; 
-    margin: 3% 0% 0% 3%;
+    margin: 3% 30% 0% 3%;
 }
 
 img .logo_colores {
     width: 15rem;
+    margin: 3% 30% 0% 3%; 
 } 
 
 /* Títulos principales */
